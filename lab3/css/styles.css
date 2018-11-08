@@ -1,0 +1,64 @@
+    body{
+        opacity:1.0;
+        width:100%;
+        text-align:center;
+        color: black;
+        font-family: serif;
+    }
+    
+    form{
+        font-size: 3em;
+        color: black;
+    }
+    h2{
+        background-color: lightgray;
+        margin:auto;
+        width:50%;
+    }
+    table{
+        margin:auto;
+    }
+    select{
+        font-size: .75em;
+        opacity: 0.8;
+        border:0;
+        display: block;
+        width: 100%;
+        text-align-last: center;
+    }
+
+    option{
+        alignment-baseline: central;
+        text-align: right;
+    }
+    
+    #inputcontainer{
+        /*background-color: white;*/
+        width: 50%;
+        margin: 0 auto;
+    }
+    #submitbox{
+        width:100%;
+    }
+    .radioinput{
+        background-color: white;
+        opacity: 0.8;
+        outline: solid black 1px;
+        text-align: left;
+        font-size: .6em;
+        padding-left: 10px;
+    }
+    
+    #carousel-example-generic {
+         margin: 0 auto;   
+         width: 700px;
+    }
+    
+    .carousel-inner  .item  img {
+        margin: 0 auto;
+    }
+    
+    #formtextbox{
+        opacity: 0.8;
+        padding-left: 20px;
+    }
