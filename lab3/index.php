@@ -78,7 +78,7 @@
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <?php
-                    for ($i=0; $i<5;$i++){
+                    for ($i = 0 ; $i < 7; $i++){
                         echo "<li data-target='#carousel-example-generic' data-slide-to='$i' ";
                         echo  ($i==0)?" class= 'active'":"";
                         echo "></li>";
@@ -90,7 +90,7 @@
                 
                     //echo 'imageURLs set';
                     //Display carousel
-                    for ($i = 0; $i < 5; $i++){
+                    for ($i = 0; $i < 7; $i++){
                         do{
                             $randomIndex = rand(0,count($imageURLs));
                         }
