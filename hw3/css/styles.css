@@ -1,0 +1,51 @@
+    body{
+        width:100%;
+        text-align:left;
+        color: black;
+        font-family: serif;
+        font-size: 1em;
+    }
+    
+    #upperinput{
+        /*background-color: gray;*/
+        height:100%;
+    }
+    
+    #submitbox{
+        display: block;
+        width:100%;
+        height: 100%;
+    }
+    
+    #formtextbox{
+        font-size: 2em;
+        color: black;
+    }
+    
+    .generic-container{
+        display: block;
+        width:100%;
+        table-layout: fixed;
+    }
+    
+    
+    .inputcol{
+        width:30%;
+    }
+    
+    #outputcol{
+        vertical-align: text-top;
+        word-break: break-all;
+        width:70%;
+        overflow-y: scroll;
+    }
+    
+    #outputcol div{
+        height: 350px;
+    }
+    
+    #maincontainer{
+        outline: 1px solid black;
+        width:500px;
+        height: 450px;
+    }
